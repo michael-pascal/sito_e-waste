@@ -1,0 +1,16 @@
+/*colori utilizzati #E9E9E9 bianco-grigio #222222 nero #8AC80B verde  #E0E0E0 un'altro bianco
+utilizziamo em come misura
+font bello inter tight*/
+.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+menu ul li{
+    list-style:none;
+    text-decoration: none;
+}
+menu ul li a{
+    display: inline-block;
+}
