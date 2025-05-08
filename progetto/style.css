@@ -1,6 +1,9 @@
 /*colori utilizzati #E9E9E9 bianco-grigio #222222 nero #8AC80B verde  #E0E0E0 un'altro bianco
 utilizziamo em come misura
 font bello inter tight*/
+body{
+    background-color: #E9E9E9;
+}
 .menu{
     display: flex;
     flex-flow: row nowrap;
@@ -13,4 +16,6 @@ menu ul li{
 }
 menu ul li a{
     display: inline-block;
+    width: 10em;
+    height: 5em;
 }
