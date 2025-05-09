@@ -62,11 +62,25 @@ h2{
     padding: 10px;
     font-size: 0.5empx;
 }
+.menu ul li a:link{
+    text-decoration: none;
+    padding: 10px;
+}
+.menu ul li a:visited{
+    text-decoration: none;
+    color:#8AC80B;
+    padding: 10px;
+   
+}
 .menu ul li a:hover{
     text-decoration: none;
     color:#8AC80B;
     padding: 10px;
    
+}
+.menu ul li a:active{
+    text-decoration: none;
+    padding: 10px;
 }
 audio{
     position: absolute;
