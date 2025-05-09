@@ -26,15 +26,14 @@ body{
 }
 .menu ul li a{
     text-decoration: none;
-<<<<<<< HEAD
+
     
 }
 .menu ul li:hover{
     background-color: white;
     color:#8AC80B;
 }
-=======
-}
+
 h1{
     text-align: center;
     color: #E9E9E9;
@@ -44,5 +43,6 @@ header{
 }
 .corpo{
     display: flex;
+
 }
->>>>>>> 788fc0e7d1b512d8660923a36c0d75edcde34c45
+
