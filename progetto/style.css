@@ -1,48 +1,100 @@
 /*colori utilizzati #E9E9E9 bianco-grigio #222222 nero #8AC80B verde  #E0E0E0 un'altro bianco
 utilizziamo em come misura
 font bello inter tight*/
-body{
-    background-color: #E9E9E9;
+*{
+    padding:0px;
+    margin: 0px;
     font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: #DDDDDD;
+}
+header{
+    background-color: #222629;
+    width: 100%;
+    height:3.5em;
+    padding: 0.7em;
+}
+Header h1{
+    color:#8AC80B;
+    padding: 0.3em;
+    font-size: 40px;
+    display: block;
+}
+footer{
+    background-color:#222222 ;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: #DDDDDD;
+}
+header{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+}
+h2{
+    color:#8AC80B;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 3px;
+    border-style: solid;
+    padding:0.5em;
+    margin:0.5em;
+    margin-top:1em;
+    font-size: 3em;
 }
 .menu{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #222222;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 .menu ul li{
-    list-style:none;
+    list-style: none;
     display: inline-block;
-    padding-left:2em;
-    padding-right: 2em;
-    text-align: center;
-    height:1em;
-    width: 3em;
-}
-.menu ul li{
-    text-decoration: none;
-   
+    padding:0.5em;
 }
 .menu ul li a{
     text-decoration: none;
-
-    
+    color:white;
+    padding: 10px;
+    font-size: 0.5empx;
 }
-.menu ul li:hover{
-    background-color: white;
+.menu ul li a:hover{
+    text-decoration: none;
     color:#8AC80B;
+    padding: 10px;
+   
 }
-
-h1{
+audio{
+    position: absolute;
+    top:6.3em;
+    margin-left: 70%;
+}
+.flex-box{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
+}
+.flex-box p{
+    font-size: 1.3em;
+    padding: 1em;
+}
+.centro{
     text-align: center;
-    color: #E9E9E9;
+    font-size: 1.3em;
+    margin-bottom: 3em;
 }
-header{
-    background-color:  #222222;
+.flex-box2{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3em;
 }
-.corpo{
-    display: flex;
-
+iframe{
+    margin:1em;
 }
-
