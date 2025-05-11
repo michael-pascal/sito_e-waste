@@ -101,25 +101,7 @@ audio{
 .flex-box p{
     font-size: 1.3em;
     padding: 1em;
-    width: 50%;
-}
-.flex-box-destra{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 2em;
-    width: 100%;
-}
-
-.flex-box-destra p{
-    font-size: 1.3em;
-    padding: 1em;
-    width: 52%;
-}
-.flex-box-destra img{
-    position: relative;
-    right: 10%;
+    width:800px;
 }
 .centro{
     text-align: center;
@@ -136,4 +118,9 @@ audio{
 iframe{
     margin:1em;
 }
-
+.testo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
