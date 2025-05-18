@@ -93,7 +93,7 @@ audio{
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 0.2em;
 }
 
 .flex-box p{
